@@ -1,0 +1,15 @@
+*.jpg
+*.png
+*.csv
+*.xls
+*.pt
+*.mp4
+*.joblib
+*.pkl
+*.zip
+*.tar.gz
+*.cache
+*.yaml
+*.yml
+*.txt
+*.log
