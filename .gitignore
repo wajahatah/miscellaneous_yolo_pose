@@ -13,3 +13,8 @@
 *.yml
 *.txt
 *.log
+*.avi
+*.xlsx
+*.h5
+*.keras
+*.pth
