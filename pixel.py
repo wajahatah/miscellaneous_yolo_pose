@@ -19,7 +19,7 @@ def click_event(event, x, y, flags, param):
 
 # Load the video
 input_dir = "C:/Users/LAMBDA THETA/Downloads/rtsp_images"
-image_name = "91.jpg"
+image_name = "101.jpg"
 image_path = os.path.join(input_dir, image_name)
 image = cv2.imread(image_path)
 

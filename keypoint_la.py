@@ -9,7 +9,7 @@ if __name__ == "__main__":
     # model = YOLO("runs/pose/trailv11-3/weights/best11_v3.pt")
     model = YOLO("bestv6-1.pt")
 
-    video_path = "D:/Wajahat/la_chunks/test_bench_3/chunk_24-02-25_11-41.avi"
+    video_path = "D:/Wajahat/la_chunks/test_bench_3/c13-1.avi"
     cap = cv2.VideoCapture(video_path)
 
     if not cap.isOpened():
