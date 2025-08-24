@@ -5,11 +5,11 @@ import pandas as pd
 from datetime import datetime
 
 # === CONFIGURATION ===
-d = 13
-json_path = f"C:/Users/LAMBDA THETA/Downloads/{d}_may_qiyas_multicam.alerts.json"
-csv_path = f"C:/Users/LAMBDA THETA/Downloads/2025-05-{d}_class_results_QIYAS_SYSTEM.csv"
-video_folder = f"C:/Users/LAMBDA THETA/Downloads/may_{d}"
-output_base = f"F:/Wajahat/looking_around_panic/may_{d}"
+d = 10
+json_path = f"C:/Users/LAMBDA THETA/Downloads/{d}_08_2025_qiyas_multicam.alerts2.json"
+csv_path = f"C:/Users/LAMBDA THETA/Downloads/2025-08-{d}_class_results_QIYAS_SYSTEM_2.csv"
+video_folder = f"C:/Users/LAMBDA THETA/Downloads/aug_{d}-2"
+output_base = f"F:/Wajahat/qiyas_analysis/aug_{d}-2"
 
 # === Load and clean CSV ===
 df = pd.read_csv(csv_path,)# sep="\t", encoding="latin1" if not csv_path.endswith(".csv") else "utf-8")
